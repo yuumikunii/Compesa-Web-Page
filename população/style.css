@@ -1,0 +1,47 @@
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5%;
+    padding-top: 10%;
+ }
+
+ .população {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 8px;
+    height: 105px;
+    width: 258px;
+    border: none;
+    background: #F5F4F8;
+    border: 1px solid rgba(17, 38, 60, 0.57);
+    border-radius: 8px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #11263C;
+    align-items: center;
+
+}
+.profissionais {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 8px;
+    height: 105px;
+    width: 258px;
+    border: none;
+    background: #11263C;
+    border: 1px solid rgba(17, 38, 60, 0.57);
+    border-radius: 8px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #F5F4F8;;
+    align-items: center;
+
+}
+
