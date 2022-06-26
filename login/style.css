@@ -1,0 +1,126 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 82px;
+  background-color: #F1F1F1;
+  align-items: center;
+  justify-content: flex-end;
+  display: flex;
+  padding-right: 38px;
+}
+
+.menu {
+  background-image: url('../assets/Background.png');
+  height: 943px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.title {
+  margin-left: 17.44267%;
+  color: #FFF;
+  line-height: 105.2px;
+  width: 587px;
+  padding-top: 67px;
+}
+
+.text-big {
+  font-size: 70px;
+}
+
+.subtitle-container {
+  font-weight: 400;
+  color: #ABCCEB;
+  width: 414px;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 30px;
+}
+
+#subtitle-text {
+  font-size: 32px;
+  line-height: 35.2px;
+}
+
+.intro {
+  height: 382.56px;
+  display: flex;
+  gap: 50px;
+}
+
+.info {
+  width: 360px;
+  padding-top: 70px;
+  line-height: 50px;
+}
+
+.email, .password {
+  color: #FDFCFF;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+}
+
+#email-input, #password-input {
+  width: 358.97px;
+  height: 56.86px;
+  padding-left: 28.5px;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  color: #11263C;
+}
+
+::placeholder{
+  color: #11263C;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+#forgot-pass{
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 500;
+  justify-content: flex-end;
+  display: flex;
+}
+
+#voltar {
+  width: 128px;
+  height: 44px;
+  border-radius: 6px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #FFF;
+  border-color: #FFF;
+  border-width: 4px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#entrar {
+  width: 128px;
+  height: 44px;
+  border-radius: 6px;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
