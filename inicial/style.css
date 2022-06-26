@@ -20,6 +20,7 @@ body {
     display: flex;
     justify-content: flex-end;
     height: 82px;
+    width: 100vw;
     background-color: #F1F1F1;
 }
 
