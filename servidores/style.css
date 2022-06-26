@@ -1,0 +1,80 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+nav {
+  width: 100%;
+  height: 82px;
+  background-color: #F1F1F1;
+  align-items: center;
+  display: flex;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 590px;
+  gap: 40px;
+  border-right: 3px solid #1A4093;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #1A4093;
+  padding-bottom: 12px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+nav ul li a:hover {
+  color: #11263C;
+  border-bottom: 3px solid #88BE3F;
+}
+
+.search {
+  background-color: #FFF;
+  display: flex;
+  align-items: center;
+  width: 328px;
+  justify-content: space-between;
+  border-radius: 20px;
+  padding-right: 15px;
+  height: 43px;
+  margin-left: 9.370424597364568vw;
+  margin-right: 10.029282576866764vw;
+}
+
+.search input {
+  border: none;
+  outline: none;
+  justify-content: center;
+  padding-left: 3.6603221083455346vw;
+}
+
+.search img {
+  cursor: pointer;
+}
+
+#compesa-logo {
+  margin-right: 2.562225475841874vw;
+}
+
+#night-shift-button {
+  margin-right: 2.4158125915080526vw;
+  cursor: pointer;
+}
+
+#menu-icon {
+  margin-right: 2.12298682284041vw;
+  cursor: pointer;
+}
