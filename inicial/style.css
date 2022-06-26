@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background-image: url("background-image.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    height: 82px;
+    background-color: #F1F1F1;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 5vh;
+}
+
+.text {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    padding-top: 5vh;
+    align-items: flex-end;
+}
+ .main-section {
+    display: flex;
+    flex-direction: column;
+ }
+ .banner {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 70px;
+    color: #FFFF;
+    Radius: 4px
+    
+ }
+ .description-section {
+    font-family: 'Ubuntu', sans-serif;
+    color: #ABCCEB;
+    width: 414px;
+
+ }
+ .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5%;
+    padding-top: 10%;
+ }
+
+ .população {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 8px;
+    height: 105px;
+    width: 258px;
+    border: none;
+    background: #F5F4F8;
+    border: 1px solid rgba(17, 38, 60, 0.57);
+    border-radius: 8px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #11263C;
+    align-items: center;
+
+}
+.profissionais {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 8px;
+    height: 105px;
+    width: 258px;
+    border: none;
+    background: #11263C;
+    border: 1px solid rgba(17, 38, 60, 0.57);
+    border-radius: 8px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #F5F4F8;;
+    align-items: center;
+
+}
